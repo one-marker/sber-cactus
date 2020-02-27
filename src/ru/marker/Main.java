@@ -5,26 +5,20 @@ public class Main
 {
     public static void main(String[] args)
     {
+
+
         List list1 = new List();
         List list2 = new List();
 
         list1.push(new Node(121));
         list1.push(new Node(0203));
         list1.push(new Node(192));
-//
+
         list2.push(new Node(12));
-//        list2.push(new Node(123));
-//        list2.push(new Node(11));
-//        list2.push(new Node(1211));
-//        list2.push(new Node(211));
-//
-//
-//
+
         list2.push_back(new Node(324));
 
-//
-//        list1.push(new Node(62));
-//
+
         list1.combineList(list2,new Node(65));
         list1.combineList(list2,new Node(652));
         list1.combineList(list2,new Node(652));
@@ -69,14 +63,18 @@ public class Main
 
         Integer i = new Integer(7);
         Integer j = i;
-        i =9;
+        i = 9;
 
-        String s1 = "2";
+        String s1 = "строка";
         String s2 = s1;;
 
-        s1 = "sd";
+        s1 = "Hello";
 
         System.out.println(j1);
+
+
+        Polimorfism.check();
+        Incapsulation.check();
     }
 
 

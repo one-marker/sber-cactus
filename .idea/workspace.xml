@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a4a42532-2ad4-4fe2-939f-233c8b831837" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/ru/marker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/ru/marker/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/marker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/marker/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ru.marker" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ru.marker.Main" />
@@ -66,22 +73,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1234" height="215" key="GridCell.Tab.0.bottom" timestamp="1582833311073">
+    <state x="566" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1582833993489">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
-    <state width="1234" height="215" key="GridCell.Tab.0.bottom/0.0.2560.1034@0.0.2560.1034" timestamp="1582833311073" />
-    <state width="1234" height="215" key="GridCell.Tab.0.center" timestamp="1582833311073">
+    <state x="566" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1034@0.0.2560.1034" timestamp="1582833993489" />
+    <state width="1234" height="215" key="GridCell.Tab.0.bottom" timestamp="1582834517600">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
-    <state width="1234" height="215" key="GridCell.Tab.0.center/0.0.2560.1034@0.0.2560.1034" timestamp="1582833311073" />
-    <state width="1234" height="215" key="GridCell.Tab.0.left" timestamp="1582833311072">
+    <state width="1234" height="215" key="GridCell.Tab.0.bottom/0.0.2560.1034@0.0.2560.1034" timestamp="1582834517600" />
+    <state width="1234" height="215" key="GridCell.Tab.0.center" timestamp="1582834517600">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
-    <state width="1234" height="215" key="GridCell.Tab.0.left/0.0.2560.1034@0.0.2560.1034" timestamp="1582833311072" />
-    <state width="1234" height="215" key="GridCell.Tab.0.right" timestamp="1582833311073">
+    <state width="1234" height="215" key="GridCell.Tab.0.center/0.0.2560.1034@0.0.2560.1034" timestamp="1582834517600" />
+    <state width="1234" height="215" key="GridCell.Tab.0.left" timestamp="1582834517599">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
-    <state width="1234" height="215" key="GridCell.Tab.0.right/0.0.2560.1034@0.0.2560.1034" timestamp="1582833311073" />
+    <state width="1234" height="215" key="GridCell.Tab.0.left/0.0.2560.1034@0.0.2560.1034" timestamp="1582834517599" />
+    <state width="1234" height="215" key="GridCell.Tab.0.right" timestamp="1582834517600">
+      <screen x="0" y="0" width="2560" height="1034" />
+    </state>
+    <state width="1234" height="215" key="GridCell.Tab.0.right/0.0.2560.1034@0.0.2560.1034" timestamp="1582834517600" />
     <state x="577" y="296" key="chooseDestDirectoryDialog" timestamp="1582833328926">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
