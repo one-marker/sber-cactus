@@ -271,6 +271,26 @@ class List
 
     }
 
+//    public ForwardList[] findCommonvalue(List secondList)
+//    {
+//        Map<Integer, ForwardList> mapFromFirstList = new HashMap<>();
+//        ForwardList iterator = head;
+//        while (iterator != null)
+//        {
+//            mapFromFirstList.put(iterator.getData(),iterator);
+//            iterator = iterator.next();
+//        }
+//        iterator = secondList.head;
+//        while (iterator != null)
+//        {
+//            if (mapFromFirstList.containsKey(iterator.getData())) {
+//                return new ForwardList[]{mapFromFirstList.get(iterator.getData()),iterator};
+//            }
+//            iterator = iterator.next();
+//        }
+//        return new ForwardList[0];
+//    }
+
 
 
 }
