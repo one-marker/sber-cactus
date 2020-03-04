@@ -3,6 +3,15 @@ package ru.marker;
 
 public class Main
 {
+    public static int smthDo()
+    {
+        try {
+            throw (new RuntimeException());
+        }
+        finally {
+            // return -1;
+        }
+    }
     public static void main(String[] args)
     {
 
@@ -75,9 +84,49 @@ public class Main
 //
 //        Polimorfism.check();
 //        Incapsulation.check();
-
+//
         Zoo zoo = new Zoo();
         zoo.start();
+
+
+
+//
+//
+//        Integer i = new Integer(7);
+//        Integer i1 = new Integer(i + (2147483647+1)*2);
+//
+//        String h = "h";
+//        Object n = new Object();
+//        Object n1 = new Object();
+//        System.out.println(n.getClass().toString());
+//        System.out.println(n.getClass().toString());
+//        System.out.println(i);
+//        System.out.println(i1);
+//
+//        System.out.println(i.hashCode());
+//        System.out.println(i1.hashCode());
+//        System.out.println(i.equals(i1));
+//        System.out.println(h.hashCode());
+//
+//        Error r;
+//        try
+//        {
+//            n.wait();
+//        }
+//        catch (Throwable e)
+//        {
+//            System.out.println(e);
+//        }
+//        finally
+//        {
+//            System.out.println("finaly");
+//        }
+
+//        System.out.println(smthDo());
+//
+//
+//        System.out.println("hello");
+//        Cloneable c;
     }
 
 
