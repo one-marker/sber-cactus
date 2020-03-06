@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a42532-2ad4-4fe2-939f-233c8b831837" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/marker/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/marker/Carnivores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/marker/Herbivores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/marker/Zoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/marker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/marker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zoo/observer/Carnivores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoo/observer/Carnivores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zoo/observer/Herbivores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoo/observer/Herbivores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zoo/observer/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoo/observer/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +38,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/zoo/observer" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="ru.marker" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Max\IdeaProjects\sber-cactus\src\zoo\observer" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.marker" />
@@ -52,9 +53,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ru.marker.Main" />
+      <option name="MAIN_CLASS_NAME" value="zoo.observer.Zoo" />
       <module name="sber-cactus" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -81,30 +81,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1089" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1583246242684">
+    <state x="956" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583419501987">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
-    <state x="1089" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1034@0.0.2560.1034" timestamp="1583246242684" />
+    <state x="956" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1034@0.0.2560.1034" timestamp="1583419501987" />
+    <state x="1089" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1583429656971">
+      <screen x="0" y="0" width="2560" height="1034" />
+    </state>
+    <state x="1089" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1034@0.0.2560.1034" timestamp="1583429656971" />
+    <state x="1231" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583419500558">
+      <screen x="0" y="0" width="2560" height="1034" />
+    </state>
+    <state x="1231" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1034@0.0.2560.1034" timestamp="1583419500558" />
     <state x="1511" y="517" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583239059672">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
     <state x="1511" y="517" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1034@0.0.2560.1034" timestamp="1583239059672" />
-    <state width="2517" height="315" key="GridCell.Tab.0.bottom" timestamp="1583248469946">
+    <state x="1010" y="265" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583426799309">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
-    <state width="2517" height="315" key="GridCell.Tab.0.bottom/0.0.2560.1034@0.0.2560.1034" timestamp="1583248469946" />
-    <state width="2517" height="315" key="GridCell.Tab.0.center" timestamp="1583248469945">
+    <state x="1010" y="265" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2560.1034@0.0.2560.1034" timestamp="1583426799309" />
+    <state width="2517" height="269" key="GridCell.Tab.0.bottom" timestamp="1583432096640">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
-    <state width="2517" height="315" key="GridCell.Tab.0.center/0.0.2560.1034@0.0.2560.1034" timestamp="1583248469945" />
-    <state width="2517" height="315" key="GridCell.Tab.0.left" timestamp="1583248469945">
+    <state width="2517" height="269" key="GridCell.Tab.0.bottom/0.0.2560.1034@0.0.2560.1034" timestamp="1583432096640" />
+    <state width="2517" height="269" key="GridCell.Tab.0.center" timestamp="1583432096640">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
-    <state width="2517" height="315" key="GridCell.Tab.0.left/0.0.2560.1034@0.0.2560.1034" timestamp="1583248469945" />
-    <state width="2517" height="315" key="GridCell.Tab.0.right" timestamp="1583248469946">
+    <state width="2517" height="269" key="GridCell.Tab.0.center/0.0.2560.1034@0.0.2560.1034" timestamp="1583432096640" />
+    <state width="2517" height="269" key="GridCell.Tab.0.left" timestamp="1583432096640">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
-    <state width="2517" height="315" key="GridCell.Tab.0.right/0.0.2560.1034@0.0.2560.1034" timestamp="1583248469946" />
+    <state width="2517" height="269" key="GridCell.Tab.0.left/0.0.2560.1034@0.0.2560.1034" timestamp="1583432096640" />
+    <state width="2517" height="269" key="GridCell.Tab.0.right" timestamp="1583432096640">
+      <screen x="0" y="0" width="2560" height="1034" />
+    </state>
+    <state width="2517" height="269" key="GridCell.Tab.0.right/0.0.2560.1034@0.0.2560.1034" timestamp="1583432096640" />
     <state x="577" y="296" key="chooseDestDirectoryDialog" timestamp="1582833328926">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
