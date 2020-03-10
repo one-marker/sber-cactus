@@ -3,8 +3,6 @@ package tasks.clear_array;
 
 import java.util.Random;
 
-import static java.lang.Math.random;
-
 class first_task{
     Integer [] array;
     public first_task(int size) {
@@ -63,10 +61,10 @@ class second_task{
         }
 
     }
-    int get_index(int word_index){
+    int getIndex(int word_index){
         int k = 0;
         for (int i = 0; i < lenght; i++){
-            if(k==word_index) {
+            if(k == word_index) {
                 System.out.println(i);
                 return i;
                 //break;
@@ -77,7 +75,7 @@ class second_task{
         }
         return 0;
     }
-    int get_len_word(int char_index){
+    int getLenghtByIndex(int char_index){
         int k = 0;
         for (int i = char_index; i < lenght; i++){
             if(str[i] ==' ' || i == lenght){
@@ -94,86 +92,55 @@ class second_task{
         return k;
     }
     void swap_word(int index1, int index2){
-      //  for(int i = 0; i < lenght-1; i++){
-        //int i =0;
-        int in1 = get_index(index1); //0
-        int in2 = get_index(index2); //8
-        int len_word1 = get_len_word(in1)+1;
-        int len_word2 = get_len_word(in2)+1;
+
+        int in1 = getIndex(index1);
+        int in2 = getIndex(index2);
+        int len_word1 = getLenghtByIndex(in1)+1;
+        int len_word2 = getLenghtByIndex(in2)+1;
         System.out.println(len_word1);
         System.out.println(len_word2);
 
 
+        //сдвиг справа налево
+        int first_index_of_left_word = getIndex(index1);
+        int first_index_of_right_word = getIndex(index2);
+        int right_word_lenght = getLenghtByIndex(first_index_of_right_word);
 
-        for(int j =in2; j > in1; j--){
+        for(int j =first_index_of_right_word; j > first_index_of_left_word; j--){
 
-            for (int i = 0; i <len_word2; i++){
+         //   swap(j, j-1);
+            for (int i = 0; i <=right_word_lenght; i++){
                 if (j+i != lenght){
                     swap(j+i, j+i-1);
                 }
-
-
-
-
-//                swap(j,j-1);
-//                swap(j+1,j);
-//                swap(j+2,j+1);
-//                swap(j+3,j+2);
             }
-
         }
+
+
+
+
+
+
+
         print();
-        in1 = get_index(index1+1);
-        in2 = get_index(index2);
-//        for(int j =in2; j >in1; j--){
-//
-//            for (int i = 0; i <4; i++){
-//                if (j+i != lenght){
-//                    swap(j+i, j+i-1);
-//                  //  print();
-//                }
-//
-//
-//
-////                swap(j,j-1);
-////                swap(j+1,j);
-////                swap(j+2,j+1);
-////                swap(j+3,j+2);
-//            }
-////
-////        }
-//        }
+        in1 = getIndex(1 + index1);
+        in2 = getIndex(index2);
 
-        for(int j =7; j <lenght; j++){
+        //сдвиг слева направо
+        int last_index_of_right_word = getIndex(index2)+ getLenghtByIndex(getIndex(index2));
+        int last_index_of_left_word = in1 + getLenghtByIndex(in1);
+        int left_word_lenght = getLenghtByIndex(getIndex(index1+1));
 
-          //  for (int i = 2; i>=0; i++){
-//                if (j+i != lenght){
-//                    swap(j+i-1, j+i);
-//                     print();
-//                }
+        for(int j = last_index_of_left_word; j <last_index_of_right_word; j++){
 
-            for (int i = 0; i <4; i++){
+            for (int i = 0; i <=left_word_lenght; i++){
                 if (j-i+1 != lenght){
-                   // swap(j+i, j+i-1);
 
                     swap(j-i,j-i+1);
 
-
-//                    swap(j,j+1);
-//                    swap(j-1,j);
-//                    swap(j-2,j-1);
-//                    swap(j-3,j-2);
-//
-
-
-                    print();
-                  //  print();
                 }
-//
 
 
-           // }
-//
             }
         }
         print();
@@ -186,8 +153,37 @@ class second_task{
     }
     void print() {
         System.out.println(str);
+
+
+    }
+
+    void swap_word2(int index1, int index2){
+        int head1 = getIndex(index1);
+        int head2 = getIndex(index2);
+
+        int sdvig = head2 - head1;
+
+        int from;
+        int to;
+
+        int i = 0;
+        while (true){
+
+            from  = head1 + i;
+            to = from + sdvig;
+            if (str[from] == ' ' || str[to] == ' '){
+                break;
+            }else {
+                swap(from, to);
+            }
+
+            i++;
+
+        }
+
     }
 }
+
 
 public class Main {
 
@@ -198,11 +194,14 @@ public class Main {
 //        task1.print();
 //        task1.clear(7);
 //        task1.print();
-        second_task task2 = new second_task("max str cle cly");
+        //max str cl000000e cly.00
+        second_task task2 = new second_task("lol max str");
         task2.print();
        // task2.swap(0,1);
      //   task2.swap_word(0,2);
-        task2.swap_word(0,3);
+      //  task2.swap_word(0,5);
+        task2.print();
+        task2.swap_word2(1,2);
         task2.print();
 
     }
