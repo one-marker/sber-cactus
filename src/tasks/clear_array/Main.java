@@ -21,7 +21,7 @@ class first_task{
         }
         System.out.println("------------");
     }
-    public void clear(int item){
+    public void clearItem(int item){
         int i = 0;
         int j = 0 ;
         for(i = 0; i < array.length; i++){
@@ -47,6 +47,37 @@ class first_task{
             }
 
         }
+    }
+    public void clearItem2(int item){
+
+        for(int i = array.length-1; i >= 0; i--){
+            // System.out.println("["+i+"]");
+            if (array[i] != item){
+                for(int j =i-1; j >= 0; j--){
+                    if (array[j] == item){
+
+                        array[i] = array[i] + array[j];
+                        array[j] = array[i] - array[j];
+                        array[i] = array[i] - array[j];
+
+                        System.out.println("\n after swap " + i +" => " +j);
+                        print();
+
+                        break;
+                    }
+
+                }
+            }
+        }
+
+
+//        for(int i = array.length-1; i >= 0; i--) {
+//
+//            if (array [i] == item) {
+//                array [i] = null;
+//            }
+//
+//        }
     }
 
 }
@@ -190,19 +221,19 @@ public class Main {
 
 
     public static void main(String[] args) {
-//        first_task task1 = new first_task(12);
-//        task1.print();
-//        task1.clear(7);
-//        task1.print();
+        first_task task1 = new first_task(12);
+        task1.print();
+        task1.clearItem2(7);
+        task1.print();
         //max str cl000000e cly.00
-        second_task task2 = new second_task("lol max str");
-        task2.print();
-       // task2.swap(0,1);
-     //   task2.swap_word(0,2);
-      //  task2.swap_word(0,5);
-        task2.print();
-        task2.swap_word2(1,2);
-        task2.print();
+//        second_task task2 = new second_task("lol max str");
+//        task2.print();
+//       // task2.swap(0,1);
+//     //   task2.swap_word(0,2);
+//      //  task2.swap_word(0,5);
+//        task2.print();
+//        task2.swap_word2(1,2);
+//        task2.print();
 
     }
 }
