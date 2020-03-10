@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a42532-2ad4-4fe2-939f-233c8b831837" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/sber-cactus/tasks/clear_array/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sber-cactus/tasks/clear_array/first_task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sber-cactus/tasks/clear_array/second_task.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/tasks/clear_array/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
