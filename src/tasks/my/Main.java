@@ -1,4 +1,4 @@
-package tasks.clear_array;
+package tasks.my;
 
 
 import java.util.Random;
