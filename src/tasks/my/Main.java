@@ -245,22 +245,26 @@ public class Main {
 
 
     public static void main(String[] args) {
-        first_task task1 = new first_task(12);
+        ArrayTask arrayTask = new ArrayTask(8);
+        arrayTask.print();
+        arrayTask.sort(8);
+        arrayTask.print();
+        //first_task task1 = new first_task(12);
 //        task1.print();
 //        task1.clearItem2(7);
 //        task1.print();
         //max str cl000000e cly.00
-        second_task task2 = new second_task("loj max str 3");
-        task2.print();
+      //  second_task task2 = new second_task("loj max str 3");
+       // task2.print();
 
        // task2.swap_word(0,2);
        // task2.new_swap(0,2);
        // task2.reverseAll();
-        task2.new_swap(0,3);
+       // task2.new_swap(0,3);
 //     //   task2.swap_word(0,2);
         //task2.reverse(3,7);
 //      //  task2.swap_word(0,5);
-        task2.print();
+      //  task2.print();
 //        task2.swap_word2(1,2);
 //        task2.print();
 
