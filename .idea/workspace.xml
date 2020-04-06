@@ -2,38 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a42532-2ad4-4fe2-939f-233c8b831837" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/json/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/my/ArrayTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/my/StringBuilderTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/threads/Conditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/threads/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/threads/TryLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/threads/_Callable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/threads/_Executors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/threads/_Semofors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tcp_ip/Connect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tcp_ip/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tcp_ip/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zoo/observer/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zoo/observer/Events.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zoo/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/serializable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/serializable/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/threads/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/threads/_BlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/threads/_Exchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/threads/_Phaser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp_ip/PortScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp_ip/ScanResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcp_ip/ScanThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/tasks/my/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/tasks/my/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Animals$State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Animals$Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Animals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Animals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Carnivores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Carnivores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Herbivores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Herbivores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Observed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Observer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Watcher$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Watcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Zoo$Events.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Zoo$Events.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Zoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/zoo/observer/Zoo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/my/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/my/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/observer/Carnivores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoo/observer/Carnivores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/observer/Herbivores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoo/observer/Herbivores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/observer/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoo/observer/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/json/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/json/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/tasks/threads/_Executors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/tasks/threads/_Executors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/tasks/threads/_Semofors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/tasks/threads/_Semofors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/tcp_ip/Connect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/tcp_ip/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/tcp_ip/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sber-cactus/tcp_ip/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sber-cactus/tcp_ip/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/threads/_Executors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/threads/_Executors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/threads/_Semofors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/threads/_Semofors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp_ip/Connect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp_ip/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcp_ip/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcp_ip/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcp_ip/Result.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +32,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sber-cactus" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,9 +58,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ZOO JAVA" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -83,9 +83,35 @@
       <recent name="C:\Users\Max\IdeaProjects\sber-cactus\src\zoo\observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Conditions">
-    <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.threads.Conditions" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json.Main" />
+      <module name="sber-cactus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcp_ip.Main" />
+      <module name="sber-cactus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcp_ip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.threads.Solution" />
       <module name="sber-cactus" />
       <extension name="coverage">
         <pattern>
@@ -97,17 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.threads.TryLock" />
-      <module name="sber-cactus" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_Callable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.threads._Callable" />
+    <configuration name="_BlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.threads._BlockingQueue" />
       <module name="sber-cactus" />
       <extension name="coverage">
         <pattern>
@@ -119,21 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Executors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.threads._Executors" />
-      <module name="sber-cactus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_Semofors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.threads._Semofors" />
+    <configuration name="_Exchanger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.threads._Exchanger" />
       <module name="sber-cactus" />
       <extension name="coverage">
         <pattern>
@@ -146,19 +150,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application._BlockingQueue" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Conditions" />
-      <item itemvalue="Application._Callable" />
-      <item itemvalue="Application._Executors" />
-      <item itemvalue="Application._Semofors" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application._Exchanger" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Conditions" />
-        <item itemvalue="Application._Semofors" />
-        <item itemvalue="Application._Executors" />
-        <item itemvalue="Application._Callable" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application._Exchanger" />
+        <item itemvalue="Application._BlockingQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -186,11 +190,15 @@
     <state x="956" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1034@0.0.2560.1034" timestamp="1583661103788" />
     <state x="956" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585580488462" />
     <state x="956" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.977@0.23.2560.977" timestamp="1583842915069" />
-    <state x="1089" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1585661467255">
+    <state x="986" y="354" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586192468035">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="986" y="354" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1586192468035" />
+    <state x="1089" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1586173265147">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1089" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1034@0.0.2560.1034" timestamp="1583429656971" />
-    <state x="1089" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1585661467255" />
+    <state x="1089" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1586173265147" />
     <state x="1231" y="312" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585579574113">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -204,74 +212,83 @@
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
     <state x="1511" y="517" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1034@0.0.2560.1034" timestamp="1583239059672" />
-    <state x="1010" y="265" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583426799309">
-      <screen x="0" y="0" width="2560" height="1034" />
+    <state x="1010" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1586187851681">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1010" y="265" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2560.1034@0.0.2560.1034" timestamp="1583426799309" />
+    <state x="1010" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586187851681" />
     <state x="1060" y="273" key="FileChooserDialogImpl" timestamp="1583757134003">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
     <state x="1060" y="273" key="FileChooserDialogImpl/0.0.2560.1034@0.0.2560.1034" timestamp="1583757134003" />
-    <state width="1465" height="267" key="GridCell.Tab.0.bottom" timestamp="1585778645196">
+    <state width="1677" height="186" key="GridCell.Tab.0.bottom" timestamp="1586209408024">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="697" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583932277147" />
     <state width="2517" height="350" key="GridCell.Tab.0.bottom/0.0.2560.1034@0.0.2560.1034" timestamp="1583852497788" />
-    <state width="1465" height="267" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1585778645196" />
+    <state width="1677" height="186" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586209408024" />
     <state width="1258" height="324" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1583848055089" />
     <state width="626" height="237" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583935202997" />
     <state width="856" height="324" key="GridCell.Tab.0.bottom/0.23.2560.977@0.23.2560.977" timestamp="1583851250180" />
-    <state width="1465" height="267" key="GridCell.Tab.0.center" timestamp="1585778645196">
+    <state width="1677" height="186" key="GridCell.Tab.0.center" timestamp="1586209408024">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="697" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583932277146" />
     <state width="2517" height="350" key="GridCell.Tab.0.center/0.0.2560.1034@0.0.2560.1034" timestamp="1583852497788" />
-    <state width="1465" height="267" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1585778645196" />
+    <state width="1677" height="186" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586209408024" />
     <state width="1258" height="324" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1583848055087" />
     <state width="626" height="237" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1583935202996" />
     <state width="856" height="324" key="GridCell.Tab.0.center/0.23.2560.977@0.23.2560.977" timestamp="1583851250178" />
-    <state width="1465" height="267" key="GridCell.Tab.0.left" timestamp="1585778645195">
+    <state width="1677" height="186" key="GridCell.Tab.0.left" timestamp="1586209408024">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="697" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583932277145" />
     <state width="2517" height="350" key="GridCell.Tab.0.left/0.0.2560.1034@0.0.2560.1034" timestamp="1583852497788" />
-    <state width="1465" height="267" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1585778645195" />
+    <state width="1677" height="186" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586209408024" />
     <state width="1258" height="324" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1583848055086" />
     <state width="626" height="237" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1583935202996" />
     <state width="856" height="324" key="GridCell.Tab.0.left/0.23.2560.977@0.23.2560.977" timestamp="1583851250119" />
-    <state width="1465" height="267" key="GridCell.Tab.0.right" timestamp="1585778645196">
+    <state width="1677" height="186" key="GridCell.Tab.0.right" timestamp="1586209408024">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="697" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583932277146" />
     <state width="2517" height="350" key="GridCell.Tab.0.right/0.0.2560.1034@0.0.2560.1034" timestamp="1583852497788" />
-    <state width="1465" height="267" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1585778645196" />
+    <state width="1677" height="186" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586209408024" />
     <state width="1258" height="324" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1583848055088" />
     <state width="626" height="237" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1583935202997" />
     <state width="856" height="324" key="GridCell.Tab.0.right/0.23.2560.977@0.23.2560.977" timestamp="1583851250179" />
-    <state width="1259" height="374" key="GridCell.Tab.1.bottom" timestamp="1583847803347">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1677" height="286" key="GridCell.Tab.1.bottom" timestamp="1586196503360">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="2517" height="345" key="GridCell.Tab.1.bottom/0.0.2560.1034@0.0.2560.1034" timestamp="1583784341035" />
+    <state width="1677" height="286" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586196503360" />
     <state width="1259" height="374" key="GridCell.Tab.1.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1583847803347" />
-    <state width="1259" height="374" key="GridCell.Tab.1.center" timestamp="1583847803345">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1677" height="286" key="GridCell.Tab.1.center" timestamp="1586196503360">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="2517" height="345" key="GridCell.Tab.1.center/0.0.2560.1034@0.0.2560.1034" timestamp="1583784341035" />
+    <state width="1677" height="286" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586196503360" />
     <state width="1259" height="374" key="GridCell.Tab.1.center/0.0.2560.1080@0.0.2560.1080" timestamp="1583847803345" />
-    <state width="1259" height="374" key="GridCell.Tab.1.left" timestamp="1583847803344">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1677" height="286" key="GridCell.Tab.1.left" timestamp="1586196503360">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="2517" height="345" key="GridCell.Tab.1.left/0.0.2560.1034@0.0.2560.1034" timestamp="1583784341035" />
+    <state width="1677" height="286" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586196503360" />
     <state width="1259" height="374" key="GridCell.Tab.1.left/0.0.2560.1080@0.0.2560.1080" timestamp="1583847803344" />
-    <state width="1259" height="374" key="GridCell.Tab.1.right" timestamp="1583847803346">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1677" height="286" key="GridCell.Tab.1.right" timestamp="1586196503360">
+      <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="2517" height="345" key="GridCell.Tab.1.right/0.0.2560.1034@0.0.2560.1034" timestamp="1583784341035" />
+    <state width="1677" height="286" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586196503360" />
     <state width="1259" height="374" key="GridCell.Tab.1.right/0.0.2560.1080@0.0.2560.1080" timestamp="1583847803346" />
     <state x="1065" y="229" key="RollbackChangesDialog" timestamp="1583756051023">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
     <state x="1065" y="229" key="RollbackChangesDialog/0.0.2560.1034@0.0.2560.1034" timestamp="1583756051023" />
+    <state x="960" y="189" key="SettingsEditor" timestamp="1586170950723">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="960" y="189" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1586170950723" />
     <state x="577" y="296" key="chooseDestDirectoryDialog" timestamp="1582833328926">
       <screen x="0" y="0" width="2560" height="1034" />
     </state>
@@ -280,9 +297,17 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="981" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584536345249" />
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1585581438702">
+    <state x="1184" y="508" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586170949532">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1585581438702" />
+    <state x="1184" y="508" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1040@0.0.2560.1040" timestamp="1586170949532" />
+    <state x="743" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1586111707292">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="743" y="148" key="refactoring.ChangeSignatureDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586111707292" />
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586080638235">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1586080638235" />
   </component>
 </project>

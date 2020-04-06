@@ -13,7 +13,7 @@ public class _Executors {
 
 
         //Пул потоков
-        ExecutorService executorService = Executors.newFixedThreadPool(2);
+        ExecutorService executorService = Executors.newFixedThreadPool(1);
         executorService.submit(new MyRunable());
         System.out.println(executorService.submit(new MyCallable()).get());
         executorService.shutdown();
