@@ -8,6 +8,7 @@ import java.io.IOException;
 public class WriteFile {
     public static void write_to_json(String fileneame){
         Gson gson = new Gson();
+
         try(FileWriter writer = new FileWriter(fileneame, false))
         {
             writer.write(gson.toJson(ScanResult.results));
@@ -20,6 +21,7 @@ public class WriteFile {
         finally {
             System.out.println("Written to file " + fileneame);
         }
+
 
     }
 

@@ -25,7 +25,7 @@ public class Main {
 
             ScanResult.results.clear();
             String cmd = sc.nextLine();
-           // String cmd = "scan -h evlentev.ru -p 0-5000 -t 5000";
+
             String[] hosts;
             String[] ports;
 

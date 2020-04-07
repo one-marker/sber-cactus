@@ -6,7 +6,6 @@ public class Result {
     private String port;
     private boolean status;
 
-
     public Result(String hostname, String port, boolean status) {
         this.hostname = hostname;
         this.port = port;

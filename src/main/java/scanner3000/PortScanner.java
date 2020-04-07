@@ -30,7 +30,6 @@ class PortScanner {
                     for (int i = port1; i <= port2 ; i++) {
                         queue.put(new ScanThread(host,  Integer.toString(i), timeOut, countDownLatch));
                     }
-                    //System.out.println(port1 + " - " + port2);
                 } else {
                     queue.put(new ScanThread(host, port, timeOut, countDownLatch));
                  }
@@ -44,6 +43,7 @@ class PortScanner {
         while (executor.getTaskCount()!=executor.getCompletedTaskCount()) {
             //System.err.println("count="+executor.getTaskCount()+","+executor.getCompletedTaskCount());
             //Thread.sleep(5000);
+
         }
         System.out.println("Completed task count: " + executor.getCompletedTaskCount());
 

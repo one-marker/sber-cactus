@@ -12,6 +12,5 @@ public class ScanResult {
         for (Object result: ScanResult.results) {
             System.out.println(result.toString());
         }
-
     }
 }

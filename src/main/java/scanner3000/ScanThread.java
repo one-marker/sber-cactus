@@ -38,7 +38,6 @@ class ScanThread implements Runnable{
             ScanResult.results.add(new Result(host, port, status));
             countDownLatch.countDown();
 
-
 //            try {
 //                Thread.sleep(0);
 //            } catch (InterruptedException e) {
