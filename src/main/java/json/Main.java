@@ -9,10 +9,17 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        HostResult hostResult = new HostResult("1","2");
+        //HostResult hostResult = new HostResult("1","2");
+        boolean b = true;
+        int i = b ? 1 : 0;
+
+
         //Gson gson = new Gson
     }
 
+    public static int boolToInt(boolean b) {
+        return b ? 1 : 0;
+    }
 
     public static class HostResult{
 

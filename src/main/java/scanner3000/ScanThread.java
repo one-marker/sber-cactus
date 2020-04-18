@@ -33,11 +33,11 @@ class ScanThread implements Runnable{
         } catch (Exception e) {
             status = false;
         } finally {
-
-            System.out.println( this.host + ":" + this.port + " [" + status + "]");
+        synchronized (this) {
+            System.out.println(this.host + ":" + this.port + " [" + status + "]");
             ScanResult.results.add(new Result(host, port, status));
             countDownLatch.countDown();
-
+        }
 //            try {
 //                Thread.sleep(0);
 //            } catch (InterruptedException e) {
