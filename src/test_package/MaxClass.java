@@ -13,6 +13,7 @@ class Max {
 public class MaxClass {
 
     public static void main(String[] args) {
+        System.out.println("Start...");
         System.out.println(new Max().getName());
     }
 
